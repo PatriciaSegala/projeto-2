@@ -141,3 +141,48 @@ td, th {
 .logo-rodape {
     width: 160px;
 }
+
+/* css da contato */
+
+form {
+    margin: 40px 20px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0 10px;
+}
+
+.enviar {
+    width: 25%;
+    padding: 15px 0;
+    background: rgb(43, 174, 6);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #7ed957;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 20px 40px;
+}
